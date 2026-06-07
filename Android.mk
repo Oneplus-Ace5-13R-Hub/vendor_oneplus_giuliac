@@ -1,0 +1,35 @@
+#
+# Automatically generated file. DO NOT MODIFY
+#
+
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),giuliac)
+
+$(call add-radio-file-sha1-checked,radio/abl.img,bf127097b48bbf2a0c8c5ad966d42faef21542ea)
+$(call add-radio-file-sha1-checked,radio/aop.img,e508eba719ef3a95957e3e669d951715392372bf)
+$(call add-radio-file-sha1-checked,radio/aop_config.img,01f1893339f289b26fc06f702297dff7ddd547c5)
+$(call add-radio-file-sha1-checked,radio/bluetooth.img,959e4d74f6863eed17b215f4004e0ddc69ee5e37)
+$(call add-radio-file-sha1-checked,radio/cpucp.img,69a091764716db17e3237508e07fe5239e5cad35)
+$(call add-radio-file-sha1-checked,radio/cpucp_dtb.img,2e481f84a2e1fd4ad8b96703e391bcf37f9c0162)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,826333265bdb9521af0bb71649d333bdd1557632)
+$(call add-radio-file-sha1-checked,radio/dsp.img,72075bb397712d2b7753e2a8654cf8e5c2313602)
+$(call add-radio-file-sha1-checked,radio/engineering_cdt.img,d27511d82df955e1d8c2c6d150de5540c2cd151d)
+$(call add-radio-file-sha1-checked,radio/featenabler.img,ebf8e8fe451a44147f4a1bfbccdec0736004e8e7)
+$(call add-radio-file-sha1-checked,radio/hyp.img,3f5099477977919eea86986340c46f521e1592a9)
+$(call add-radio-file-sha1-checked,radio/imagefv.img,4efd7ed992e1e6f0f7a14eb2f7c97fefeda0e94a)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,c0b2c2efb72bcf747b4d739c8e2b52af77a24d96)
+$(call add-radio-file-sha1-checked,radio/modem.img,cc3aa4a1f911c22ce45463a6622a96543476a32d)
+$(call add-radio-file-sha1-checked,radio/oplus_sec.img,2a0a3bc41fa77874e80515aaee0a151fd7ea2756)
+$(call add-radio-file-sha1-checked,radio/oplusstanvbk.img,b153c02106041dabc021a14176f4e9261a3d40d1)
+$(call add-radio-file-sha1-checked,radio/qupfw.img,653f71d8720d9f96d296d520e14f4a9e997302d4)
+$(call add-radio-file-sha1-checked,radio/shrm.img,c33fe29928c76c78c2022da607d197aa568accc0)
+$(call add-radio-file-sha1-checked,radio/splash.img,07e9cda27d7d55806370294443d78ef887e32d2b)
+$(call add-radio-file-sha1-checked,radio/tz.img,e3fc5096cd07fe355aaeff2cd51562bd305d5763)
+$(call add-radio-file-sha1-checked,radio/uefi.img,e1dc5e38305816466b8b1d3c76e92d1c636ba711)
+$(call add-radio-file-sha1-checked,radio/uefisecapp.img,611db0488a8c4c6d253e3bd82986c8fe8f943ab6)
+$(call add-radio-file-sha1-checked,radio/xbl.img,c4d400bd69094a6a3b0d6afb44b388f4bc94d5da)
+$(call add-radio-file-sha1-checked,radio/xbl_config.img,baddaccbf36657815080c013db4d04a9408f8311)
+$(call add-radio-file-sha1-checked,radio/xbl_ramdump.img,96cfc0508f99af028c42a390d2956a59f98ac9c9)
+
+endif
